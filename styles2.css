@@ -1,0 +1,53 @@
+body{background-color: #e0e7ec;font-family: Arial, sans-serif;
+    margin: 30px 30px 30px 30px;
+}
+#wellcome{background-color: rgb(255, 255, 255);
+    border: 1px solid 0;
+    border-radius: 10px;
+    padding: 50px 0px 35px 20px;
+    box-shadow: 5px 5px 10px rgb(177, 176, 176);
+
+
+}
+#heading1{ text-shadow: 3px 3px 10px rgb(197, 195, 192);
+    text-decoration: underline;}
+
+
+#heading1::first-letter{color: red;
+    font-size: 50px;
+
+}
+#para1{text-transform: uppercase;font-style: italic;
+
+
+
+}
+#para2{text-indent: 50px;
+    line-height:60px;
+    word: spacing 10px;
+    text-transform: capitalize;
+
+}
+#para3{text-shadow:5px 5px 10px rgb(148, 148, 148);}
+.link{text-transform: capitalize; 
+    text-decoration: none;
+
+
+}
+.link:hover{color: rgb(71, 116, 206);
+    text-decoration: underline;
+
+
+}
+.link:focus{border: 2px solid cornflowerblue;}
+#homepage:active{border: 1px; 
+    color: blue;}
+#heading2{text-shadow: 5px 5px 10px gray;}
+#para{text-transform: capitalize;}
+#para6::first-line{text-transform: capitalize;text-decoration: underline;}
+#subscribebutton{height: 40px; letter-spacing: 4px;}
+#subscribebutton:focus{background-color: red;border: 2px;border-color: black;border-style: solid;}
+#subscribebutton:active{background-color: green;}
+
+
+
